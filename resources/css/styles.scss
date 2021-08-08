@@ -544,3 +544,28 @@ footer {
 
 
 @import "media-quary";
+
+
+/// JQuery Animate ON SCroll/////////
+.js--about-box{
+    opacity:0;
+    animation-duration: 1s;
+}
+
+.js--about-box.animate__animated{
+    opacity:1;
+}
+
+
+.js--service-box{
+    opacity:0;
+    animation-duration: 1.5s;
+}
+.js--service-box.animate__animated{
+    opacity:1;
+}
+
+.js--package-box.animate__animated{
+    animation-duration: 2.5s;
+    animation-iteration-count: 5;
+}

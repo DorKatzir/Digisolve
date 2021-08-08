@@ -696,4 +696,31 @@ footer p {
     margin-bottom: 5px;
   }
 }
+
+.js--about-box {
+  opacity: 0;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+.js--about-box.animate__animated {
+  opacity: 1;
+}
+
+.js--service-box {
+  opacity: 0;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+.js--service-box.animate__animated {
+  opacity: 1;
+}
+
+.js--package-box.animate__animated {
+  -webkit-animation-duration: 2.5s;
+          animation-duration: 2.5s;
+  -webkit-animation-iteration-count: 5;
+          animation-iteration-count: 5;
+}
 /*# sourceMappingURL=styles.css.map */
