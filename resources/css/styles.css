@@ -688,13 +688,6 @@ footer p {
   .work-portfolio li {
     width: 50% !important;
   }
-  .main-nav {
-    margin-top: 40px;
-  }
-  .main-nav li {
-    display: block;
-    margin-bottom: 5px;
-  }
 }
 
 .js--about-box {
