@@ -156,7 +156,7 @@ input[type=submit] {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(255,255,255, .8);
+    background-color: rgba(255,255,255, 1);
     width: 100%;
     box-shadow: 0 2px 2px #efefef;
     .logo{
@@ -173,6 +173,7 @@ input[type=submit] {
             font-weight: 500;
         }
     }
+    z-index: 99 !important;
 }
 
 
